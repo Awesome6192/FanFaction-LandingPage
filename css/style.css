@@ -5,7 +5,7 @@ body {
     line-height: 1.6;
     background-color: #f4f4f4;
     color: #fff;
-    padding-top: 60px; /* Add padding to avoid overlap with the fixed header */
+    padding-top: 60px;
 }
 
 header {
@@ -85,7 +85,7 @@ header nav ul li a:hover {
     background-color: black;
     text-align: center;
     color: white;
-    padding-top: 80px; /* Add padding to avoid overlap with the fixed header */
+    padding-top: 80px;
     box-sizing: border-box;
 }
 
@@ -123,26 +123,25 @@ header nav ul li a:hover {
     }
     
     .intro-images img {
-        width: 90%; /* Adjust image width for better mobile responsiveness */
+        width: 90%;
     }
 }
 
-/* Add padding or margin for other sections to prevent overlapping */
 section {
-    padding: 70px 20px; /* Increase padding to avoid overlap */
+    padding: 70px 20px;
     text-align: center;
 }
 
 #about, #features {
     background-color: black;
-    color: white; /* Default text color inside these sections */
+    color: white;
     font-size: 1.2rem;
     margin-top: 50px;
 }
 
 /* About, Features */
 #about h2, #features h2, #contact h2 {
-    color: #ffcc00; /* Set headers to yellow */
+    color: #ffcc00;
     font-size: 1.8rem;
     margin-bottom: 10px;
 }
@@ -176,7 +175,7 @@ section {
     }
 
     .feature-item img {
-        height: 150px; /* Adjust image height for better mobile fit */
+        height: 150px;
     }
 }
 
@@ -207,7 +206,7 @@ section {
 .social-links a {
     margin: 0 10px;
     text-decoration: none;
-    color: #0011ff; /* Adjusted color for better contrast */
+    color: #0011ff;
     font-size: 1.2rem;
 }
 
@@ -223,13 +222,12 @@ footer {
     padding: 5px 0;
 }
 
-/* Mobile Adjustments */
 @media (max-width: 768px) {
     header nav ul li {
-        margin-right: 10px; /* Reduce padding for better fit */
+        margin-right: 10px;
     }
 
     #about h2, #features h2, #contact h2 {
-        font-size: 1.5rem; /* Adjust header size for mobile */
+        font-size: 1.5rem;
     }
 }
